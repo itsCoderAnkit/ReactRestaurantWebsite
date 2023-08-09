@@ -20,8 +20,8 @@
 .image-container {
     display: flex;
     justify-content: center;
-    background-color: #201e1e;
-    height:300px
+    background-color: #1b1b1b;
+    height:400px
   }
   
   img {
@@ -29,8 +29,3 @@
     max-height: 300px; /* Adjust the maximum height as needed */
     object-fit: cover; /* Adjust the maximum height as needed */
 }
-  
-  
-
-  
-  

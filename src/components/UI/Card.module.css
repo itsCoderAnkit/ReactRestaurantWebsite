@@ -1,0 +1,17 @@
+.card {
+  padding: 4rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  width: 70%;
+  max-width: 800px; /* Set a maximum width to ensure responsiveness */
+  margin: 69vh auto 0; /* Center the card horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the card vertically */
+}
+
+
+
+

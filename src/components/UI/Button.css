@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Adjust as needed */
+    background-color: rgb(131 39 2); /* Header background color */
+    color: white; /* Header text color */
+    position: relative;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    background-color: #3b1902; /* Oval container background color */
+    border-radius: 50%; /* Create an oval shape using border-radius */
+    padding: 2rem; /* Adjust padding as needed */
+    width: 200px; /* Increase width to make the oval container larger */
+    height: 100px; /* Increase height to make the oval container taller */
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem; /* Adjust as needed */
+  }
+  
+  nav a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+  
+  /* New class for the button */
+  .oval-button {
+    background-color: #462302; /* Button background color */
+    border: none;
+    color: white;
+    border-radius: 10%; /* Oval shape */
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .oval-button span:first-child {
+    margin-right: 1 rem; /* Spacing between icon and text */
+  }
+  
+

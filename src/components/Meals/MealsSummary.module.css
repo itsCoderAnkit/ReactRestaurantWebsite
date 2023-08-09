@@ -1,0 +1,23 @@
+.content-box {
+    position: absolute;
+    top: 50%; /* Position the box in the middle of the container */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the box */
+    background-color: #201e1e; /* Box background color with transparency */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the box */
+    text-align: center;
+  }
+  
+  .content-box h1 {
+    margin: 0;
+    font-size: 2rem;
+    color:aliceblue
+  }
+
+  .content-box p {
+    margin: 10px;
+    font-size: 1.2rem;
+    color:aliceblue
+  }

@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react'
+import React,{Fragment, useState} from 'react'
 import Header from './components/Layout/Header';
 import Meals from './components/Meals/Meals';
 import CartItem from './components/Cart/CartItem';
@@ -6,10 +6,21 @@ import CartItem from './components/Cart/CartItem';
 
 
 function App() {
+
+  const [cartIsShown,setCartIsShown] = useState(false)
+
+  const closeCart = () =>{
+    setCartIsShown(false)
+  }
+
+  const showYourCart = () =>{
+    setCartIsShown(true)
+  }
+
   return (
     <Fragment>
-      <CartItem></CartItem>
-      <Header></Header>
+      {cartIsShown && <CartItem onClose={closeCart} backdropClosingCart={closeCart}/>}
+      <Header showCart={showYourCart}></Header>
     <main>
       <Meals></Meals>
     </main>

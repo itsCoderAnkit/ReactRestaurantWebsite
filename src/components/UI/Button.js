@@ -21,12 +21,12 @@ import React from 'react';
 import CartIcon from '../Cart/CartIcon'
 import './Button.css';
 
-const Button = () => {
+const Button = (props) => {
     return (
         <header className="header">
             <div className="nav-container">
                 
-                <button className="oval-button">
+                <button className="oval-button" onClick={props.buttonPressed}>
                     <span>
                         <CartIcon />
                     </span>

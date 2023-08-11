@@ -8,13 +8,13 @@ import mealsImage from '../../assets/Untitled.jpg'
 
 
 
-const Header = () => {
+const Header = (props) => {
 
     return (
         <Fragment>
             <header className={classes['main-header']}>
                 <h1>ReactMeals</h1>
-                <Button></Button>
+                <Button buttonPressed={props.showCart}></Button>
             </header>
             <div className={classes['image-container']}>
                 <img src={mealsImage} alt='table full of dishes'></img>
